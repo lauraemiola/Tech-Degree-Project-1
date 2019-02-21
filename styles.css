@@ -69,12 +69,12 @@ header .profile-image {
   margin-top: 50px;
   width: 150px;
   height: 150px;
-  border-radius: 50%;
-  border: 3px solid white;
+  border-radius: 40%;
+  border: 2px solid white;
   transition: all .5s;
 }
 header .profile-image:hover {
-  transform: scale(1.0) rotate(20deg);
+  transform: scale(2.0) rotate(20deg);
 }
 .tag {
   background-color: #efefef;
@@ -150,7 +150,7 @@ a.social {
   background-size: 30px 30px;
   opacity: .4;
   transition: all .5s;
-  
+
 }
 a.linkedin {
   background-image: url(images/linkedin.svg);
